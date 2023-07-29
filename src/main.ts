@@ -1,4 +1,6 @@
 import 'normalize.css'
+import '@/style/main.less'
+import 'tailwindcss/tailwind.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
