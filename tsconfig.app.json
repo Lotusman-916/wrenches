@@ -1,6 +1,6 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/stories/*"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true, // 标明此配置文件是可以被合成的
